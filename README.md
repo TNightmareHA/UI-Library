@@ -1,2 +1,3 @@
 # Tutorial
-How to code with me.
+
+Today, you're going to be with me during this tutorial!
