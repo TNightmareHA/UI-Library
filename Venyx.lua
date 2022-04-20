@@ -1,3 +1,5 @@
+-- Made by: https://v3rmillion.net/member.php?action=profile&uid=244024
+
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/TNightmareHA/Backup/main/Venyx"))()
 local window = library.new("Example", 5013109572)
 
