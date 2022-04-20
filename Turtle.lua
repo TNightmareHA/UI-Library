@@ -19,16 +19,19 @@ window:Slider("Example Slider",0,100,20, function(value)
     print(value)
 end)
 -- Text, color: setting color to true will give it a rainbow effect!
-window:Label("Credits to TheNightmareHorrorAttraction#3004", Color3.fromRGB(127, 143, 166))
+window:Label([[Credits to
+    TheNightmareHorrorAttraction#3004]], Color3.fromRGB(127, 143, 166))
 -- Name, callback
-window:Box("Example Walkspeed", function(text, focuslost)
+window:Box([[Example
+    Walkspeed]], function(text, focuslost)
     if focuslost then
       print(text)
     end
 end)
 -- The callback will be called with two arguments, the text that the player inputted and whether the player has stopped writing
 -- Name, table with names of the button that you want, callback that will be called with the name of the button that was pressed
-local d = window:Dropdown("Example dropdown", {"Button 1", "Button 2", "Button 3"}, function(name)
+local d = window:Dropdown([[Example 
+    dropdown]], {"Button 1", "Button 2", "Button 3"}, function(name)
     print(name)
 end)
 -- Name
@@ -37,4 +40,4 @@ d:Button("New button")
 d:Remove("Button")
 -- Key
 lib:Keybind("Z")
-lib:Destroy()
+-- lib:Destroy() | Do not add this!
