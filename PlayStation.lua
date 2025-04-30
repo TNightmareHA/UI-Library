@@ -1,4 +1,4 @@
-local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/TNightmareHA/Backup/refs/heads/main/PlayStation.lua"))()
+local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/TNightmareHA/Backup/refs/heads/main/PlayStation"))()
 
 local UI = GUI:CreateWindow("the um","lop")
 
